@@ -10,7 +10,7 @@
     .row
       .col-lg-8.mb-4.mb-lg-0(style="place-self:center;")
         p(data-aos="fade-up") La gestión de las actualizaciones y parcheo de los sistemas de información o de los dispositivos de la organización se convierte en un factor fundamental para garantizar la seguridad de la información, ya que, a partir de esta gestión, es posible reducir amenazas por desactualización de sistemas y evitar que terceros puedan aprovecharla.
-        p.mt-4(data-aos="fade-up") Desde los estándares de seguridad abordados, se presenta como una premisa que se deben mantener los sistemas de información, aplicaciones e incluso dispositivos de red actualizados en su última versión, lo que garantiza que cuenten con los últimos ajustes y solución a bugs que puedan ser aprovechados para abrir brechas a la seguridad de la información.
+        p.mt-4(data-aos="fade-up") Desde los estándares de seguridad abordados, se presenta como una premisa que se deben mantener los sistemas de información, aplicaciones e incluso dispositivos de red actualizados en su última versión, lo que garantiza que cuenten con los últimos ajustes y solución a #[em bugs] que puedan ser aprovechados para abrir brechas a la seguridad de la información.
         p.mt-4(data-aos="fade-up") #[strong A continuación, se van a revisar algunos detalles importantes relacionados con este ejercicio y así poder comprender su utilidad y necesidad de aplicarlos en la infraestructura tecnológica:]
       .col-lg-4(style="place-self:center")
         figure
@@ -43,7 +43,7 @@
         ul.fa-ul
           li.mb-3.d-block(data-aos="fade-up")
             i.fa-li.fa.fa-check-circle(style="color:#40327B;")
-            | Parche de reparación: parche que corrige fallas o bugs en los sistemas.
+            | Parche de reparación: parche que corrige fallas o #[em bugs] en los sistemas.
           li.mb-3.d-block(data-aos="fade-up")
             i.fa-li.fa.fa-check-circle(style="color:#40327B;")
             | Parche de seguridad: parches que solucionan agujeros de seguridad o brechas en la seguridad del mismo, sin modificar la funcionalidad del sistema.
@@ -55,7 +55,7 @@
             | Parche de traducción: este tipo de parches permite cambiar el lenguaje de un sistema.
           li.mb-3.d-block(data-aos="fade-up")
             i.fa-li.fa.fa-check-circle(style="color:#40327B;")
-            | Parche de piratería ilegal: este parche, denominado también crack, permite liberar funcionalidades o alterar rutinas del sistema de manera ilegal.
+            | Parche de piratería ilegal: este parche, denominado también #[em crack], permite liberar funcionalidades o alterar rutinas del sistema de manera ilegal.
           li.mb-3.d-block(data-aos="fade-up")
             | #[strong No se recomienda la aplicación de este tipo de parches en organizaciones. ]
       .col-lg-4

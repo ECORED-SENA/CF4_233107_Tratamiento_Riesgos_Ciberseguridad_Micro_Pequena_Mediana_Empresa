@@ -32,17 +32,17 @@
         .h-100.cont_tarjeta_6_1.p-4(style="background-color:#D5CEF8;border-radius:15px;")
           figure
             img(src="@/assets/curso/tema6/3.svg" data-aos="zoom-in-up" style="max-width:100px;")
-          p.mt-4(data-aos="fade-up") Garantizar la privacidad y confidencialidad de tal manera que únicamente el destinatario interesado pueda leerla.
+          p.mt-4(data-aos="fade-up") Integridad, evitando que esta sea modificada sin autorización.
       .col-xl.col-lg-6.mb-xl-0.mb-4
         .h-100.cont_tarjeta_6_1.p-4(style="background-color:#D5CEF8;border-radius:15px;")
           figure
             img(src="@/assets/curso/tema6/3.svg" data-aos="zoom-in-up" style="max-width:100px;")
-          p.mt-4(data-aos="fade-up") Garantizar la privacidad y confidencialidad de tal manera que únicamente el destinatario interesado pueda leerla.
+          p.mt-4(data-aos="fade-up") Autenticación, garantizando que solo se pueda interpretar por los interesados.
       .col-xl.col-lg-6.mb-xl-0.mb-4
         .h-100.cont_tarjeta_6_1.p-4(style="background-color:#D5CEF8;border-radius:15px;")
           figure
             img(src="@/assets/curso/tema6/3.svg" data-aos="zoom-in-up" style="max-width:100px;")
-          p.mt-4(data-aos="fade-up") Garantizar la privacidad y confidencialidad de tal manera que únicamente el destinatario interesado pueda leerla.
+          p.mt-4(data-aos="fade-up") No repudio, para evitar que se niegue el acceso a alguno de los interesados.
 
     .tarjeta.color-primario.p-4.mt-5
       .row.justify-content-around.align-items-center
@@ -114,7 +114,8 @@
           h4.text-white.mb-0(data-aos="fade-up") HTTPS
       p(data-aos="fade-up") El protocolo de servicio web HTTP viaja de manera plana a través de los medios de comunicación, lo que lo hace vulnerable a cualquier interceptación, permitiendo recuperar información sensible, alterar y/o aplicar sentencias dañinas; para mejorar la seguridad de este protocolo, se realizan implementaciones como SSL, acrónimo de Secure Sockets Layer, la cual permite realizar un cifrado a la información transmitida entre dos puntos.
       p.mt-4(data-aos="fade-up") Asimismo, se cuenta con TLS, Transport Layer Security, la cual es una mejora al SSL agregando una capa de seguridad al transporte; los certificados web se distribuyen actualmente con tecnología TLS, aunque continúen llamándose SSL.
-      p.mt-4(data-aos="fade-up") Estas implementaciones se realizan con la inclusión de un certificado digital en la operación del servidor web, como Apache, Ngnix o IIS, por nombrar algunos, habilitando el protocolo HTTPS. #[strong En la siguiente figura, puede observar cómo la implementación de cifrado SSL evita que el contenido que circula a través de la red pueda ser leído por terceros no autorizados:]
+      p.mt-4(data-aos="fade-up") Estas implementaciones se realizan con la inclusión de un certificado digital en la operación del servidor web, como Apache, Ngnix o IIS, por nombrar algunos, habilitando el protocolo HTTPS.
+      p.mt-4(data="fade-up") #[strong En la siguiente figura, puede observar cómo la implementación de cifrado SSL evita que el contenido que circula a través de la red pueda ser leído por terceros no autorizados:]
       .titulo-sexto.color-acento-contenido.mt-5
         h5 Figura 9.
         span Tráfico HTTP vs. HTTPS
@@ -149,8 +150,8 @@
         .col(style="place-self:center;")
           h4.text-white.mb-0(data-aos="fade-up") SSH
 
-      p(data-aos="fade-up") Uno de los controles que no debe faltar en cualquier estrategia de seguridad es el que nos sugiere asegurar los accesos remotos y seguros, en especial, para la administración de dispositivos críticos, así como de consolas y appliances de seguridad; para abordar este control, se sugiere la implementación de acceso seguro a través de SSH (Secure SHell), el cual es un servicio que hace uso de protocolo de cifrado, como RSA y DSA, este establece las conexiones estableciendo canales seguros y cifrados entre los dos puntos de la conexión, resguardando la información que fluye por el medio.
-      p.mt-4(data-aos="fade-up") En la siguiente figura, se puede identificar cómo, desde el exterior y haciendo uso de una conexión SSH, puede establecer conexión con un host al interior de la red, implementando un canal cifrado a través de la red pública; este servicio puede utilizarse a través de programas para la conexión remota, como Putty, y de transferencia de archivos segura, como WinSCP:
+      p(data-aos="fade-up") Uno de los controles que no debe faltar en cualquier estrategia de seguridad es el que nos sugiere asegurar los accesos remotos y seguros, en especial, para la administración de dispositivos críticos, así como de consolas y appliances de seguridad; para abordar este control, se sugiere la implementación de acceso seguro a través de SSH (#[em Secure SHell]), el cual es un servicio que hace uso de protocolo de cifrado, como RSA y DSA, este establece las conexiones estableciendo canales seguros y cifrados entre los dos puntos de la conexión, resguardando la información que fluye por el medio.
+      p.mt-4(data-aos="fade-up") En la siguiente figura, se puede identificar cómo, desde el exterior y haciendo uso de una conexión SSH, puede establecer conexión con un host al interior de la red, implementando un canal cifrado a través de la red pública; este servicio puede utilizarse a través de programas para la conexión remota, como #[em Putty], y de transferencia de archivos segura, como WinSCP:
 
       .titulo-sexto.color-acento-contenido.mt-5
         h5 Figura 11.
@@ -183,7 +184,7 @@
     Separador.mt-5
 
     .titulo-segundo
-      h2#t_6_2 6.2 Fuga de información
+      h2#t_6_3 6.3 Fuga de información
 
     .row
       .col-lg-8.mb-4.mb-lg-0(style="place-self:center")
@@ -192,8 +193,11 @@
       .col-lg-4(style="place-self:center")
         figure
           img(src="@/assets/curso/tema6/17.png" data-aos="fade-left")
+    
+    h3.mt-5(data-aos="fade-up") Tipos
+    p.mt-4(data-aos="fade-up") Existen diversos tipos y causas por las cuales se desencadenan fugas o pérdida de información, entre los cuales se pueden encontrar:
 
-    .pt-5.pb-5.cont_6_5.mt-5
+    .pt-4.pb-5.cont_6_5.mt-5
       .titulo-sexto.color-acento-contenido.mt-5
         h5 Fuga de la Información
       figure.mt-4
@@ -240,7 +244,7 @@
             | Cifrado de información confidencial corporativa.
           li.mb-1.d-block(data-aos="fade-up")
             i.fas.fa-angle-right(style="color:#583AE2;")
-            | Instalación, configuración y actualización de firewall.
+            | Instalación, configuración y actualización de #[em firewall].
           li.mb-1.d-block(data-aos="fade-up")
             i.fas.fa-angle-right(style="color:#583AE2;")
             | Actualización permanente de aplicaciones.
@@ -253,7 +257,7 @@
             | Sistemas de prevención de pérdida de datos o DLP.
           li.mb-1.d-block(data-aos="fade-up")
             i.fas.fa-angle-right(style="color:#583AE2;")
-            | Aplicación de controles orientados a la gestión del ciclo de vida de la información o ILM (Information Lifecycle Management).
+            | Aplicación de controles orientados a la gestión del ciclo de vida de la información o ILM (#[em Information Lifecycle Management]).
           li.mb-1.d-block(data-aos="fade-up")
             i.fas.fa-angle-right(style="color:#583AE2;")
             | Adopción de herramientas que permitan controlar dispositivos externos de almacenamiento, removibles y en línea, para evitar fugas de información.

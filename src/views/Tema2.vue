@@ -28,7 +28,7 @@
 
     .titulo-sexto.color-acento-contenido.mt-5
       h5 Figura 2.
-      span Gestión de tráfico entrante por Firewall
+      span Gestión de tráfico entrante por #[em Firewall]
     figure.mt-4
       img.d-none.d-lg-block(src="@/assets/curso/tema2/4.svg" data-aos="zoom-in-up")
       img.d-block.d-lg-none(src="@/assets/curso/tema2/5.svg" data-aos="zoom-in-up")
@@ -36,7 +36,7 @@
 
     p.mt-5(data-aos="fade-up") #[strong Los #[em firewalls] cuentan con políticas para la gestión de tráfico por defecto, pero cada administrador de red puede crear o modificarlas de acuerdo con sus necesidades.]
 
-    p.mt-4(data-aos="fade-up") Para la operación de un firewall, es necesario tener presentes ciertos conceptos y definiciones que son muy comunes y que su conocimiento permite realizar una adecuada gestión, de la siguiente manera:
+    p.mt-4(data-aos="fade-up") Para la operación de un #[em firewall], es necesario tener presentes ciertos conceptos y definiciones que son muy comunes y que su conocimiento permite realizar una adecuada gestión, de la siguiente manera:
 
     .tarjeta.tarjeta--azul.p-5.mt-5.cont_slyderab1
       SlyderA(tipo="b")
@@ -95,7 +95,7 @@
     .titulo-segundo
       h2#t_2_1 2.1 Funcionalidades
 
-    p(data-aos="fade-up") Entre las funciones que desempeña un firewall, se encuentran:
+    p(data-aos="fade-up") Entre las funciones que desempeña un #[em firewall], se encuentran:
 
     .row.mt-4
       .row.m-0.col-lg-4.mb-4.mb-lg-0.cont_tarjeta_2_1
@@ -140,7 +140,7 @@
     .titulo-segundo
       h2#t_2_2 2.2 Tipos
 
-    p(data-aos="fade-up") Existe actualmente gran variedad de soluciones Firewall, entre las cuales es importante identificar las relacionadas en el siguiente video:
+    p(data-aos="fade-up") Existe actualmente gran variedad de soluciones #[em Firewall], entre las cuales es importante identificar las relacionadas en el siguiente video:
 
     figure.mt-5
       .video

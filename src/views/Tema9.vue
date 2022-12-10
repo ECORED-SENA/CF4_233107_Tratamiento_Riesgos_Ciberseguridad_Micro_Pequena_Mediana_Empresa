@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 9
-      h1 Sistemas de correlacionamiento de logs y monitoreo
+      h1 Sistemas de correlacionamiento de #[em logs] y monitoreo
 
     .row
       .col-lg-4.mb-4.mb-lg-0(style="place-self:center;")
@@ -127,7 +127,7 @@
       img.d-none.d-lg-block(src="@/assets/curso/tema9/11.svg" data-aos="zoom-in-up")
       img.d-block.d-lg-none(src="@/assets/curso/tema9/12.svg" data-aos="zoom-in-up")
 
-    p.mt-5(data-aos="fade-up") Asimismo, es importante resaltar el esquema lógico de un SIEM, que se puede apreciar en la siguiente figura, donde se presenta un esquema de cómo, a partir de la ingesta o alimentación de fuentes de diferentes sistemas de información, consigue realizar un procesamiento y correlación de patrones para generar una vista amigable, como se había visto en el dashboard:
+    p.mt-5(data-aos="fade-up") Asimismo, es importante resaltar el esquema lógico de un SIEM, que se puede apreciar en la siguiente figura, donde se presenta un esquema de cómo, a partir de la ingesta o alimentación de fuentes de diferentes sistemas de información, consigue realizar un procesamiento y correlación de patrones para generar una vista amigable, como se había visto en el #[em dashboard]:
 
     .titulo-sexto.color-acento-contenido.mt-5
       h5 Figura 20.

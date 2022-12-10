@@ -185,14 +185,14 @@
               p.mt-4 Está diseñado para ser intuitivo y actuar como una capa de traducción, para permitir la comunicación entre equipos multidisciplinarios mediante el uso del lenguaje simplista y no técnico.
               p.mt-4 El core consta de tres partes: #[br] funciones, categorías y subcategorías. Incluye cinco funciones de alto nivel: identificar, proteger, detectar, responder y recuperar.
             td.p-4(style="border:0;border-right:1px #E1E1E1 solid;") Los niveles de implementación le permiten a la organización catalogarse en un umbral predefinido en función de las prácticas actuales de gestión del riesgo, el entorno de amenazas, los requerimientos legales y regulatorios, los objetivos y misión del negocio y las restricciones de la propia empresa.
-            td.p-4(style="border:0;") Los perfiles se emplean para describir el estado actual (current profile) y el estado objetivo (target profile) de determinadas actividades de ciberseguridad. El análisis diferencial entre perfiles, permite la identificación de brechas que deberían ser gestionadas para cumplir con los objetivos de gestión de riesgos.
+            td.p-4(style="border:0;") Los perfiles se emplean para describir el estado actual (#[em current profile]) y el estado objetivo (#[em target profile]) de determinadas actividades de ciberseguridad. El análisis diferencial entre perfiles, permite la identificación de brechas que deberían ser gestionadas para cumplir con los objetivos de gestión de riesgos.
 
-    p.mt-5(data-aos="fade-up") Así, el core del Framework plantea acciones de ciberseguridad para las infraestructuras críticas. #[strong Por otra parte, el núcleo del marco propone 5 funciones básicas secuenciales, como se muestra a continuación:]
+    p.mt-5(data-aos="fade-up") Así, el core del #[em Framework] plantea acciones de ciberseguridad para las infraestructuras críticas. #[strong Por otra parte, el núcleo del marco propone 5 funciones básicas secuenciales, como se muestra a continuación:]
 
     .col-xl-8.m-auto.mt-5
       .titulo-sexto.color-acento-contenido.mt-5
         h5 Figura 15.
-        span Funciones básicas del Framework de NIST
+        span Funciones básicas del #[em Framework] de NIST
       figure.mt-4
         img.d-none.d-lg-block(src="@/assets/curso/tema8/19.svg" data-aos="zoom-in-up")
         img.d-block.d-lg-none(src="@/assets/curso/tema8/20.svg" data-aos="zoom-in-up")
@@ -201,7 +201,7 @@
 
     .titulo-sexto.color-acento-contenido.mt-5
       h5 Figura 16.
-      span Funciones básicas del Framework de NIST
+      span Elementos que determinan las actividades a realizar
     figure.mt-4
       img.d-none.d-lg-block(src="@/assets/curso/tema8/21.svg" data-aos="zoom-in-up")
       img.d-block.d-lg-none(src="@/assets/curso/tema8/22.svg" data-aos="zoom-in-up")
@@ -212,7 +212,7 @@
     .col-xl-10.m-auto.mt-5
       .titulo-sexto.color-acento-contenido
         h5 Tabla 2.
-        span Basado en Gómez (2009)
+        span Categoría de función y de identificadores únicos
       .tabla-a.color-acento-contenido.mt-4 
         table
           caption(style="background-color:#F6F6F6;font-weight:400;") #[strong Nota.] Basado en Gómez (2009)
@@ -296,8 +296,10 @@
           img(src="@/assets/curso/tema5/23.svg" data-aos="fade-right")
       .col(style="place-self:center;")
         h4.text-white.mb-0(data-aos="fade-up") Implementación
+    
+    p.mt-4(data-aos="fade-up") El marco se puede implementar en cualquier organización. A continuación, se revisarán los pasos básicos para su adopción:
 
-    .titulo-sexto.color-acento-contenido
+    .titulo-sexto.color-acento-contenido.mt-5
       h5 Figura 17.
       span  Pasos para la implementación de CSF en una organización 
     figure.mt-4

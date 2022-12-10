@@ -51,7 +51,7 @@
           figure.col-6.col-md-6.m-auto.col-lg-5
             img(src="@/assets/curso/tema4/7.svg" data-aos="zoom-in-up")
           h4.mt-4.text-center(data-aos="fade-up") NGFW
-          p.mt-4(data-aos="fade-up") Este tipo de #[em firewall] de nueva generación incorpora herramientas para el análisis de amenazas recientes, así como malware que frecuentemente aparece en nuevas versiones y modalidades de ataques; este tipo de soluciones se recomienda en grandes organizaciones o aquellas que presentan gran cantidad de solicitudes y acceso a través de red.
+          p.mt-4(data-aos="fade-up") Este tipo de #[em firewall] de nueva generación incorpora herramientas para el análisis de amenazas recientes, así como #[em malware] que frecuentemente aparece en nuevas versiones y modalidades de ataques; este tipo de soluciones se recomienda en grandes organizaciones o aquellas que presentan gran cantidad de solicitudes y acceso a través de red.
 
     .mt-5.p-4(style="background-color:#B5E4EB;border-radius:15px;")
       p.mb-0(data-aos="fade-up") #[strong Una de las principales diferencias entre estas soluciones es que el NGFW puede realizar una inspección avanzada de paquetes y permite establecer políticas para gestionar el acceso seguro a los recursos.]
@@ -66,7 +66,7 @@
         figure.d-flex.justify-content-center
           img(src="@/assets/curso/tema4/8.svg" data-aos="fade-left" style="max-width:100px;")
       .col-lg-10.col-md-8
-        p.mb-0(data-aos="fade-up") Este tipo de dispositivos UTM/XTM cuenta con las capacidades para realizar la gestión de la seguridad, mediante la administración tráfico, análisis de malware, control de aplicaciones, gestión de vlan, como lo demuestra la siguiente figura:
+        p.mb-0(data-aos="fade-up") Este tipo de dispositivos UTM/XTM cuenta con las capacidades para realizar la gestión de la seguridad, mediante la administración tráfico, análisis de #[em malware], control de aplicaciones, gestión de vlan, como lo demuestra la siguiente figura:
 
     .titulo-sexto.color-acento-contenido.mt-5
       h5 Figura 6.

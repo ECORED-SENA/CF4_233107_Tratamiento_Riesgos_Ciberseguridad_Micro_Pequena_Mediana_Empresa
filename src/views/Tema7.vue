@@ -86,7 +86,7 @@
         .row
           .col-lg-7.mb-4.mb-lg-0
             h4 Ataques basados en la red
-            p Problemas de malware en dispositivos, que puede tomar el control y realizar acciones no requeridas, por ejemplo: envío masivo de mensajes a los contactos o publicación autónoma en las redes sociales.
+            p Problemas de #[em malware] en dispositivos, que puede tomar el control y realizar acciones no requeridas, por ejemplo: envío masivo de mensajes a los contactos o publicación autónoma en las redes sociales.
           .col-lg-5
             figure
               img(src='@/assets/curso/tema7/12.png')
@@ -191,7 +191,7 @@
             | Contar con mecanismos de conexión segura, evitando hacer uso de canales abiertos y públicos.
           li.mb-2(data-aos="fade-up")
             i.fas.fa-check-circle(style="color:#40327B;")
-            | Proveer de herramientas contra malware actualizadas.
+            | Proveer de herramientas contra #[em malware] actualizadas.
           li.mb-2(data-aos="fade-up")
             i.fas.fa-check-circle(style="color:#40327B;")
             | Mantener un monitoreo permanente del tráfico de la red donde se encuentran los activos de información.
@@ -247,6 +247,7 @@ export default {
 .cont_slyderab1
   background: url(../assets/curso/tema2/6.png)
   background-repeat: no-repeat
+  background-size: cover
 .slyder-a__bullets__item
   background-color: #A097CC
 .slyder-a__bullets__item--active

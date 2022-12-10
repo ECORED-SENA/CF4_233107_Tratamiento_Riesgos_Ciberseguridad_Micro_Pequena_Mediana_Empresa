@@ -159,7 +159,7 @@
             | Tienen el control para denegar paquetes, así como cerrar conexiones que consideren sospechosas.
           li(data-aos="fade-up")
             i.fas.fa-check-circle(style="color:#40327B;")
-            | Operan desde la red interna, por lo general, después del firewall de seguridad perimetral.
+            | Operan desde la red interna, por lo general, después del #[em firewall] de seguridad perimetral.
 
     .titulo-sexto.color-acento-contenido.mt-5
       h5 Figura 5.

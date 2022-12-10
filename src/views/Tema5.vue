@@ -9,8 +9,8 @@
 
     .row.cont_5_1(style="position:relative;")
       .col-lg-10.col-md-8.mb-4.mb-md-0
-        p.mb-0(data-aos="fade-up") El malware, de acuerdo con MalwareBytes, “es un término amplio que describe cualquier programa o código malicioso que es dañino para los sistemas” (MalwareBytes, 2021), es capaz de invadir nuestros sistemas de información de manera intrusiva para causar daños, generando pérdidas de información en caso de no estar preparados.
-        p.mt-4(data-aos="fade-up") Existen varios tipos de malware y tienen su impacto diferente dependiendo de su funcionamiento; en el siguiente video, es posible identificar aquellos tipos de malware más conocidos y que han generado estragos en los últimos años:
+        p.mb-0(data-aos="fade-up") El #[em malware], de acuerdo con #[em MalwareBytes], “es un término amplio que describe cualquier programa o código malicioso que es dañino para los sistemas” (#[em MalwareBytes], 2021), es capaz de invadir nuestros sistemas de información de manera intrusiva para causar daños, generando pérdidas de información en caso de no estar preparados.
+        p.mt-4(data-aos="fade-up") Existen varios tipos de #[em malware] y tienen su impacto diferente dependiendo de su funcionamiento; en el siguiente video, es posible identificar aquellos tipos de malware más conocidos y que han generado estragos en los últimos años:
       .col-lg-2.col-md-4(style="place-self:center")
         figure.d-flex.justify-content-center
           img(src="@/assets/curso/tema5/1.svg" data-aos="fade-left" style="max-width:100px;")
@@ -21,7 +21,7 @@
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
-    p.mt-5(data-aos="fade-up") El malware, una vez logra afectar un dispositivo, puede presentar los siguientes síntomas, que llevan a identificar que se encuentra afectado por este tipo de programas:
+    p.mt-5(data-aos="fade-up") El #[em malware], una vez logra afectar un dispositivo, puede presentar los siguientes síntomas, que llevan a identificar que se encuentra afectado por este tipo de programas:
 
     .row.mt-5.m-auto
       .col-xl.col-lg-4.mb-4.mb-lg-0
@@ -50,14 +50,14 @@
             img(src="@/assets/curso/tema5/8.svg" data-aos="zoom-in-up" style="max-width:100px")
           p.mt-4(data-aos="fade-up") Entre otros comportamientos relacionados.
 
-    p.mt-5(data-aos="fade-up") Como mecanismos de protección y para no verse afectado por este tipo de programas, se recomienda el uso de tecnologías antimalware, las cuales vienen hoy en día integradas a las soluciones de antivirus como Norton 360, Avast, Mcafee, Kaspersky, o también podemos encontrar soluciones independientes, como Malwarebytes.
+    p.mt-5(data-aos="fade-up") Como mecanismos de protección y para no verse afectado por este tipo de programas, se recomienda el uso de tecnologías #[em antimalware], las cuales vienen hoy en día integradas a las soluciones de antivirus como Norton 360, Avast, Mcafee, Kaspersky, o también podemos encontrar soluciones independientes, como #[em Malwarebytes].
 
     Separador.mt-5
 
     .titulo-segundo
       h2#t_5_1 5.1 Tipos
 
-    p(data-aos="fade-up") En la actualidad, se encuentran tecnologías antimalware que permiten mantener la seguridad de los dispositivos de la organización, como son:
+    p(data-aos="fade-up") En la actualidad, se encuentran tecnologías #[em antimalware] que permiten mantener la seguridad de los dispositivos de la organización, como son:
 
     .row.mt-5.col-xl-10.m-auto
       .col-lg.mb-4.mb-lg-0
@@ -65,7 +65,7 @@
           figure
             img(src="@/assets/curso/tema5/10.png" data-aos="zoom-in-up")
           h4.mt-4.text-white.text-center(data-aos="fade-up") #[em Software antimalware] autónomo
-          p.mt-4.text-white(data-aos="fade-up") Este tipo de programa antimalware, por lo general, está enfocado en ciertos tipos de malware y se distribuye de manera independiente, sin requerir de otros componentes para su funcionamiento; este tipo de soluciones es muy común para recuperación de sistemas que ya han sido afectados.
+          p.mt-4.text-white(data-aos="fade-up") Este tipo de programa #[em antimalware], por lo general, está enfocado en ciertos tipos de malware y se distribuye de manera independiente, sin requerir de otros componentes para su funcionamiento; este tipo de soluciones es muy común para recuperación de sistemas que ya han sido afectados.
       .col-lg.mb-4.mb-lg-0
         .cont_tarjeta_5_3.h-100.p-4.pt-5
           figure
@@ -85,7 +85,7 @@
         figure
           img(src="@/assets/curso/tema3/10.svg" data-aos="fade-right" style="max-width:90px")
       .col-xl-6.col-lg-5.mb-lg-0.mb-4(style="place-self:center")
-        p.mb-0(data-aos="fade-up") El portal Safety Detectives comparte su post titulado “Las 7 mejores aplicaciones y protecciones #[em antimalware] (2022): Mejores herramientas”, entre las cuales sobresalen Norton 360, Bitdefender McAfee, TotalAV, Avira, así como la solución de MalwareBytes como herramienta autónoma sobresaliente para la gestión de malware para sistemas operativos Windows.
+        p.mb-0(data-aos="fade-up") El portal #[em Safety Detectives] comparte su post titulado “Las 7 mejores aplicaciones y protecciones #[em antimalware] (2022): Mejores herramientas”, entre las cuales sobresalen Norton 360, Bitdefender McAfee, TotalAV, Avira, así como la solución de MalwareBytes como herramienta autónoma sobresaliente para la gestión de #[em malware] para sistemas operativos Windows.
       .col-xl-4.col-lg-4
         figure
           img(src="@/assets/curso/tema5/13.svg" data-aos="fade-left" style="position:relative;bottom:-16px;")
@@ -95,7 +95,7 @@
     .titulo-segundo
       h2#t_5_2 5.2 Características
 
-    p(data-aos="fade-up") Las soluciones antimalware deben de incorporar como características importantes lo siguiente:
+    p(data-aos="fade-up") Las soluciones #[em antimalware] deben de incorporar como características importantes lo siguiente:
 
     SlyderF.mt-5(columnas="col-lg-6 col-xl-4")
       .tarjeta-avatar
@@ -103,7 +103,7 @@
         .tarjeta.color-primario.cont_slydef1
           .text-white.p-4.text-center
             h4.text-center(style="color:#12263F !important;") Protección frente a #[em(style="color:#12263F !important;") malware]
-            p.mt-4(style="color:#12263F !important;") Debe presentar soporte para asegurar y recuperar recursos afectados por malware de manera permanente y actualizada.
+            p.mt-4(style="color:#12263F !important;") Debe presentar soporte para asegurar y recuperar recursos afectados por #[em(style="color:#12263F !important;") malware] de manera permanente y actualizada.
       .tarjeta-avatar
         img(src='@/assets/curso/tema5/15.svg' style="max-width:120px")
         .tarjeta.color-primario.cont_slydef1
@@ -150,7 +150,7 @@
     Separador.mt-5
 
     .titulo-segundo
-      h2#t_5_3 5.3 Detección y respuesta para endpoints (EDR) 
+      h2#t_5_3 5.3 Detección y respuesta para #[em endpoints] (EDR) 
 
     .row.cont_5_1(style="position:relative;")
       .col-lg-10.col-md-8.mb-4.mb-md-0
@@ -160,7 +160,7 @@
         figure.d-flex.justify-content-center
           img(src="@/assets/curso/tema5/22.svg" data-aos="fade-left" style="max-width:100px;")
 
-    p.mt-5(data-aos="fade-up") #[strong Detección y respuesta para Endpoints]
+    p.mt-5(data-aos="fade-up") #[strong Detección y respuesta para #[em Endpoints]]
 
     figure.mt-5
       .video
@@ -173,7 +173,7 @@
       .col(style="place-self:center;")
         h4.text-white.mb-0(data-aos="fade-up") Características
 
-    p(data-aos="fade-up") Dentro de las características requeridas por una solución para la detección y respuesta de endpoints, es importante tener presente que debe abordar los niveles de seguridad para este tipo de dispositivos, como son:
+    p(data-aos="fade-up") Dentro de las características requeridas por una solución para la detección y respuesta de #[em endpoints], es importante tener presente que debe abordar los niveles de seguridad para este tipo de dispositivos, como son:
 
     .row.mt-5
       .col-xl.col-lg-6.mb-xl-0.mb-4
@@ -195,7 +195,7 @@
             .col.p-3.d-flex.align-items-center(style="background-color:#D5CEF8;border-top-right-radius:10px;border-bottom-right-radius:10px;")
               p.mb-0(data-aos="fade-up") #[strong Prevención]
           .p-4
-            p(data-aos="fade-up") Proveer de soluciones de seguridad activa que protejan contra cualquier amenaza que pueda afectar los activos de información administrados, a partir del monitoreo permanente y aprendizaje de los comportamientos identificados, facilitando la defensa ante cualquier comportamiento anómalo presentado desde el endpoint.
+            p(data-aos="fade-up") Proveer de soluciones de seguridad activa que protejan contra cualquier amenaza que pueda afectar los activos de información administrados, a partir del monitoreo permanente y aprendizaje de los comportamientos identificados, facilitando la defensa ante cualquier comportamiento anómalo presentado desde el #[em endpoint].
       .col-xl.col-lg-6.mb-xl-0.mb-4
         .h-100.cont_tarjeta_5_4
           .row.m-0
@@ -217,7 +217,7 @@
           .p-4
             p(data-aos="fade-up") Debe brindar las capacidades de integrarse con soluciones y sistemas de monitoreo para una visualización general de los endpoints de la organización.
 
-    p.mt-5(data-aos="fade-up") #[strong En la siguiente figura, se puede observar la arquitectura de seguridad sugerida para una solución de endpoint:]
+    p.mt-5(data-aos="fade-up") #[strong En la siguiente figura, se puede observar la arquitectura de seguridad sugerida para una solución de #[em endpoint]:]
 
     .titulo-sexto.color-acento-contenido.mt-5
       h5 Figura 7.

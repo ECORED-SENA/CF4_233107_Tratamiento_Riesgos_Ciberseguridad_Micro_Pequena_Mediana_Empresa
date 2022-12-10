@@ -46,31 +46,8 @@
           img(src="@/assets/curso/tema11/7.svg" data-aos="fade-left" style="max-width:100px;")
 
     .col-xl-10.m-auto.mt-5
-      AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")
-        .row(titulo="Conceptos de seguridad")
-          .col-md-4.md-4.mb-md-0
-            figure
-              img(src="@/assets/curso/tema11/8.png")
-          .col-md-8
-            ul.fa-ul
-              li.mb-1.d-block(data-aos="fade-up")
-                i.fa-li.fa.fa-angle-right(style="color:#583AE2;")
-                | Ingeniería social
-              li.mb-1.d-block(data-aos="fade-up")
-                i.fa-li.fa.fa-angle-right(style="color:#583AE2;")
-                | Phishing
-              li.mb-1.d-block(data-aos="fade-up")
-                i.fa-li.fa.fa-angle-right(style="color:#583AE2;")
-                | Spam
-              li.mb-1.d-block(data-aos="fade-up")
-                i.fa-li.fa.fa-angle-right(style="color:#583AE2;")
-                | Pharming
-              li.mb-1.d-block(data-aos="fade-up")
-                i.fa-li.fa.fa-angle-right(style="color:#583AE2;")
-                | Accesos físicos
-              li.mb-1.d-block(data-aos="fade-up")
-                i.fa-li.fa.fa-angle-right(style="color:#583AE2;")
-                | Entre otras
+      h3(data-aos="fade-up") Conceptos de seguridad
+      AcordionA.mt-4(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")
         .row(titulo="Técnicas más comunes utilizadas por los ciberdelincuentes")
           .col-md-4.md-4.mb-md-0
             figure
@@ -82,13 +59,13 @@
                 | Ingeniería social
               li.mb-1.d-block(data-aos="fade-up")
                 i.fa-li.fa.fa-angle-right(style="color:#583AE2;")
-                | Phishing
+                | #[em Phishing]
               li.mb-1.d-block(data-aos="fade-up")
                 i.fa-li.fa.fa-angle-right(style="color:#583AE2;")
-                | Spam
+                | #[em Spam]
               li.mb-1.d-block(data-aos="fade-up")
                 i.fa-li.fa.fa-angle-right(style="color:#583AE2;")
-                | Pharming
+                | #[em Pharming]
               li.mb-1.d-block(data-aos="fade-up")
                 i.fa-li.fa.fa-angle-right(style="color:#583AE2;")
                 | Accesos físicos
@@ -209,7 +186,7 @@
         .h-100.cont_tarjeta_11_2.p-4(style="background-color:#D5CEF8;border-radius:15px;")
           figure
             img(src="@/assets/curso/tema11/16.svg" data-aos="zoom-in-up" style="max-width:100px;")
-          p.mt-4(data-aos="fade-up") #[strong Campañas de socialización] #[br] Las campañas de socialización que se puedan desplegar a través de fondos de escritorios, volantes, correos, mensajería instantánea, donde se den tips y recomendaciones para la gestión de la seguridad.
+          p.mt-4(data-aos="fade-up") #[strong Campañas de socialización] #[br] Las campañas de socialización que se puedan desplegar a través de fondos de escritorios, volantes, correos, mensajería instantánea, donde se den #[em tips] y recomendaciones para la gestión de la seguridad.
 
     .titulo-sexto.color-acento-contenido.mt-5
       h5 Figura 21.
