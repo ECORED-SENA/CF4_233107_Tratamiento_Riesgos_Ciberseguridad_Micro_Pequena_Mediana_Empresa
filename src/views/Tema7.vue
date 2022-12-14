@@ -179,24 +179,24 @@
         figure
           img(src="@/assets/curso/tema7/20.svg" data-aos="fade-right")
       .col-lg-8.col-xl-9(style="place-self:center")
-        ul.lista-ul
+        ul.fa-ul
           li.mb-2(data-aos="fade-up")
-            i.fas.fa-check-circle(style="color:#40327B;")
+            i.fa-li.fas.fa-check-circle(style="color:#40327B;")
             | Uso de equipos adecuados.
           li.mb-2(data-aos="fade-up")
-            i.fas.fa-check-circle(style="color:#40327B;")
+            i.fa-li.fas.fa-check-circle(style="color:#40327B;")
             | Garantizar el acceso a la información, de acuerdo con las condiciones y controles de seguridad anteriormente nombrados.
           li.mb-2(data-aos="fade-up")
-            i.fas.fa-check-circle(style="color:#40327B;")
+            i.fa-li.fas.fa-check-circle(style="color:#40327B;")
             | Contar con mecanismos de conexión segura, evitando hacer uso de canales abiertos y públicos.
           li.mb-2(data-aos="fade-up")
-            i.fas.fa-check-circle(style="color:#40327B;")
+            i.fa-li.fas.fa-check-circle(style="color:#40327B;")
             | Proveer de herramientas contra #[em malware] actualizadas.
           li.mb-2(data-aos="fade-up")
-            i.fas.fa-check-circle(style="color:#40327B;")
+            i.fa-li.fas.fa-check-circle(style="color:#40327B;")
             | Mantener un monitoreo permanente del tráfico de la red donde se encuentran los activos de información.
           li.mb-2(data-aos="fade-up")
-            i.fas.fa-check-circle(style="color:#40327B;")
+            i.fa-li.fas.fa-check-circle(style="color:#40327B;")
             | Contar con políticas de seguridad implementadas e informadas a todo el personal.
 
 
