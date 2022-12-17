@@ -164,7 +164,7 @@
 
     figure.mt-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/XuDaYwxGMU0" title="Detección y Respuesta para Endpoints (EDR)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     .mt-5.row.mb-5(style="background-color:#40327B;border-top-right-radius:150px;border-bottom-right-radius:150px;max-width:300px;")
       .col-auto.p-0(style="place-self:center;")
