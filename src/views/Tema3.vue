@@ -138,7 +138,7 @@
             i.fas.fa-check-circle.fa-li(style="color:#40327B;")
             | Entre otros más.
       .col-xl-4.col-lg-4
-        figure
+        figure.col-8.m-auto.col-md-12
           img(src="@/assets/curso/tema3/11.svg" data-aos="fade-left" style="position:relative;bottom:-16px;")
 
     .row.mt-5.p-4(style="background-color:#D5CEF8;")
@@ -184,8 +184,8 @@
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img.d-flex.flex-wrap(:style="{'background-image': `url(${require('@/assets/curso/tema3/15.png')})`}")
-              figure.col-7.m-auto
-                img(src="@/assets/curso/tema3/16.svg")
+              figure.d-flex.justify-content-center
+                img(src="@/assets/curso/tema3/16.svg" style="max-width:200px;")
               .m-auto.text-center(style="width:fit-content;")
                 .pt-2.pb-2.bg-white.ps-4.pe-4(style="border-radius:50px;")
                   p.mb-0 #[strong #[em(style="color:initial;") IDS #[em (Intrusion Detection System)]]]
@@ -214,8 +214,8 @@
         .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img.d-flex.flex-wrap(:style="{'background-image': `url(${require('@/assets/curso/tema3/15.png')})`}")
-              figure.col-7.m-auto
-                img(src="@/assets/curso/tema3/17.svg")
+              figure.d-flex.justify-content-center
+                img(src="@/assets/curso/tema3/17.svg" style="max-width:200px;")
               .m-auto.text-center(style="width:fit-content;")
                 .pt-2.pb-2.bg-white.ps-4.pe-4(style="border-radius:50px;")
                   p.mb-0 #[strong #[em(style="color:initial;") IPS #[em (Intrusion Prevention System)]]]
@@ -273,4 +273,7 @@ export default {
   background-color: #B5E4EB
   border-top-left-radius: 150px
   border-bottom-left-radius: 150px
+.tarjeta-flip.color-primario .tarjeta-flip__contenido
+  background-size: cover !important
+  background-repeat: no-repeat
 </style>

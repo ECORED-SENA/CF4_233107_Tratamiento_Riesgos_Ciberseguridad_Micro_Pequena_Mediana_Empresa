@@ -185,6 +185,7 @@ export default {
 .cont_slyderab1
   background: url(../assets/curso/tema2/6.png)
   background-repeat: no-repeat
+  background-size: cover
 .slyder-a__bullets__item
   background-color: #A097CC
 .slyder-a__bullets__item--active

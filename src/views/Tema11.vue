@@ -49,7 +49,7 @@
       h3(data-aos="fade-up") Conceptos de seguridad
       AcordionA.mt-4(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")
         .row(titulo="Técnicas más comunes utilizadas por los ciberdelincuentes")
-          .col-md-4.md-4.mb-md-0
+          .col-md-4.mb-4.mb-md-0
             figure
               img(src="@/assets/curso/tema11/9.png")
           .col-md-8
@@ -73,7 +73,7 @@
                 i.fa-li.fa.fa-angle-right(style="color:#583AE2;")
                 | Entre otras
         .row(titulo="Ataques más comunes de la actualidad")
-          .col-md-4.md-4.mb-md-0
+          .col-md-4.mb-4.mb-md-0
             figure
               img(src="@/assets/curso/tema11/10.png")
           .col-md-8
@@ -85,7 +85,7 @@
                 i.fa-li.fa.fa-angle-right(style="color:#583AE2;")
                 | #[em Malware]
         .row(titulo="Normatividad vigente")
-          .col-md-4.md-4.mb-md-0
+          .col-md-4.mb-4.mb-md-0
             figure
               img(src="@/assets/curso/tema11/11.png")
           .col-md-8
@@ -97,7 +97,7 @@
                 i.fa-li.fa.fa-angle-right(style="color:#583AE2;")
                 | Normatividad gubernamental (instituciones públicas)
         .row(titulo="Uso de herramientas seguras para la gestión de la información en la organización")
-          .col-md-4.md-4.mb-md-0
+          .col-md-4.mb-4.mb-md-0
             figure
               img(src="@/assets/curso/tema11/12.png")
           .col-md-8
@@ -109,7 +109,7 @@
                 i.fa-li.fa.fa-angle-right(style="color:#583AE2;")
                 | Herramientas criptográficas
         .row(titulo="Buenas prácticas de seguridad")
-          .col-md-4.md-4.mb-md-0
+          .col-md-4.mb-4.mb-md-0
             figure
               img(src="@/assets/curso/tema11/13.png")
           .col-md-8
@@ -133,7 +133,7 @@
                 i.fa-li.fa.fa-angle-right(style="color:#583AE2;")
                 | Uso de canales seguros (vpn, proxy, ssh)
         .row(titulo="Ataques de ingeniería social")
-          .col-md-4.md-4.mb-md-0
+          .col-md-4.mb-4.mb-md-0
             figure
               img(src="@/assets/curso/tema11/14.png")
           .col-md-8
@@ -145,7 +145,7 @@
                 i.fa-li.fa.fa-angle-right(style="color:#583AE2;")
                 | Actuación frente a un ataque
         .row(titulo="Incidentes que afecten la seguridad de la información")
-          .col-md-4.md-4.mb-md-0
+          .col-md-4.mb-4.mb-md-0
             figure
               img(src="@/assets/curso/tema11/15.png")
           .col-md-8
@@ -170,22 +170,22 @@
       .col-xl.col-lg-6.mb-xl-0.mb-4
         .h-100.cont_tarjeta_11_2.p-4(style="background-color:#D5CEF8;border-radius:15px;")
           figure
-            img(src="@/assets/curso/tema11/16.svg" data-aos="zoom-in-up" style="max-width:100px;")
+            img(src="@/assets/curso/tema11/16.svg" data-aos="zoom-in-up" style="max-width:80px;")
           p.mt-4(data-aos="fade-up") #[strong Capacitaciones #[em in situ] periódicas] #[br] Estas permitirán convocar a que las personas asistan a jornadas de capacitación sobre temas que permitan mejorar la seguridad de la información.
       .col-xl.col-lg-6.mb-xl-0.mb-4
         .h-100.cont_tarjeta_11_2.p-4(style="background-color:#D5CEF8;border-radius:15px;")
           figure
-            img(src="@/assets/curso/tema11/16.svg" data-aos="zoom-in-up" style="max-width:100px;")
+            img(src="@/assets/curso/tema11/16.svg" data-aos="zoom-in-up" style="max-width:80px;")
           p.mt-4(data-aos="fade-up") #[strong Canales de autoformación] #[br] Establecer medios para que los empleados consulten y realicen ejercicios para mejorar sus capacidades de seguridad para la gestión de la información.
       .col-xl.col-lg-6.mb-xl-0.mb-4
         .h-100.cont_tarjeta_11_2.p-4(style="background-color:#D5CEF8;border-radius:15px;")
           figure
-            img(src="@/assets/curso/tema11/16.svg" data-aos="zoom-in-up" style="max-width:100px;")
+            img(src="@/assets/curso/tema11/16.svg" data-aos="zoom-in-up" style="max-width:80px;")
           p.mt-4(data-aos="fade-up") #[strong Ejercicios de demostración] #[br] Conformar ejercicios para que los empleados se enfrenten a situaciones, como, por ejemplo, de ingeniería social, lo cual les permitirá reconocer patrones de comportamiento, así como identificar la ruta de actuación frente a una situación en particular, como se puede apreciar en la figura 22.
       .col-xl.col-lg-6.mb-xl-0.mb-4
         .h-100.cont_tarjeta_11_2.p-4(style="background-color:#D5CEF8;border-radius:15px;")
           figure
-            img(src="@/assets/curso/tema11/16.svg" data-aos="zoom-in-up" style="max-width:100px;")
+            img(src="@/assets/curso/tema11/16.svg" data-aos="zoom-in-up" style="max-width:80px;")
           p.mt-4(data-aos="fade-up") #[strong Campañas de socialización] #[br] Las campañas de socialización que se puedan desplegar a través de fondos de escritorios, volantes, correos, mensajería instantánea, donde se den #[em tips] y recomendaciones para la gestión de la seguridad.
 
     .titulo-sexto.color-acento-contenido.mt-5
@@ -260,4 +260,6 @@ export default {
   background-color: #D5CEF8
 .cont_tarjeta_11_2:hover
   background-color: #6AC9D6 !important
+.tarjeta.tarjeta--gris.acordion__activo
+  background-color: #DAF1F5
 </style>

@@ -34,7 +34,7 @@
         figure
           img(src="@/assets/curso/tema5/23.svg" data-aos="fade-right")
       .col(style="place-self:center;")
-        h4.text-white.mb-0(data-aos="fade-up") Tipos
+        h3.text-white.mb-0(data-aos="fade-up") Tipos
 
     p(data-aos="fade-up") Las infraestructuras críticas abordan sectores primordiales para el desarrollo de las regiones, entre los que se pueden encontrar:
 
@@ -163,7 +163,7 @@
         figure
           img(src="@/assets/curso/tema5/23.svg" data-aos="fade-right")
       .col(style="place-self:center;")
-        h4.text-white.mb-0(data-aos="fade-up") Estructura del marco NIST
+        h3.text-white.mb-0(data-aos="fade-up") Estructura del marco NIST
 
     p(data-aos="fade-up") El framework de NIST se encuentra compuesto por 3 secciones, como se puede identificar en la siguiente tabla:
 
@@ -295,7 +295,7 @@
         figure
           img(src="@/assets/curso/tema5/23.svg" data-aos="fade-right")
       .col(style="place-self:center;")
-        h4.text-white.mb-0(data-aos="fade-up") Implementación
+        h3.text-white.mb-0(data-aos="fade-up") Implementación
     
     p.mt-4(data-aos="fade-up") El marco se puede implementar en cualquier organización. A continuación, se revisarán los pasos básicos para su adopción:
 

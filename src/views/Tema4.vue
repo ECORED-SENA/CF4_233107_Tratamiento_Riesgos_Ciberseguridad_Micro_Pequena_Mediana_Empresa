@@ -41,15 +41,15 @@
       .col-lg.mb-4.mb-lg-0
         .p-4.h-100.cont_tarjeta2(style="background-color:#583AE2;border-radius:15px;")
           img.img_fondo(src="@/assets/curso/tema1/12.png")
-          figure.col-6.col-md-6.m-auto.col-lg-5
-            img(src="@/assets/curso/tema4/6.svg" data-aos="zoom-in-up")
+          figure.d-flex.justify-content-center
+            img(src="@/assets/curso/tema4/6.svg" data-aos="zoom-in-up" style="max-width:180px;")
           h4.text-white.mt-4.text-center(data-aos="fade-up") UTM/XTM
           p.mt-4.text-white(data-aos="fade-up") Este tipo de soluciones, como se mencionó anteriormente, además de sus funciones de firewall, cuenta con herramientas como sistemas de prevención de intrusiones, antivirus, filtros de URL, red privada virtual (VPN), balanceo de enlaces, informes de seguridad, entre otros; este tipo de soluciones se puede encontrar tanto en presentación de hardware como software; este modelo es muy recomendado para pequeñas organizaciones. 
       .col-lg.mb-4.mb-lg-0
         .p-4.h-100.cont_tarjeta3(style="background-color:#45BBCC;border-radius:15px;")
           img.img_fondo(src="@/assets/curso/tema1/9.png")
-          figure.col-6.col-md-6.m-auto.col-lg-5
-            img(src="@/assets/curso/tema4/7.svg" data-aos="zoom-in-up")
+          figure.d-flex.justify-content-center
+            img(src="@/assets/curso/tema4/7.svg" data-aos="zoom-in-up" style="max-width:180px;")
           h4.mt-4.text-center(data-aos="fade-up") NGFW
           p.mt-4(data-aos="fade-up") Este tipo de #[em firewall] de nueva generación incorpora herramientas para el análisis de amenazas recientes, así como #[em malware] que frecuentemente aparece en nuevas versiones y modalidades de ataques; este tipo de soluciones se recomienda en grandes organizaciones o aquellas que presentan gran cantidad de solicitudes y acceso a través de red.
 
@@ -72,8 +72,7 @@
       h5 Figura 6.
       span Características y funcionalidades de los UTM/XTM
     figure.mt-4
-      img.d-none.d-lg-block(src="@/assets/curso/tema4/9.png" data-aos="zoom-in-up")
-      img.d-block.d-lg-none(src="@/assets/curso/tema4/10.png" data-aos="zoom-in-up")
+      img(src="@/assets/curso/tema4/9.svg" data-aos="zoom-in-up")
       figcaption(style="font-weight:400;background-color:#F6F6F6;") #[strong Nota.] Adaptado de http://fibraoptica.blog.tartanga.eus/files/2018/01/Equipos-UTM-2-2.jpg 
 
 

@@ -26,7 +26,7 @@
     .row.cont_10_1.mt-5.p-4.pt-5.pb-5
       .col-lg-3.mb-4.mb-lg-0(style="place-self:center")
         figure.text-center
-          img(src="@/assets/curso/tema10/3.svg" data-aos="fade-right" style="max-width:150px;display:inline;")
+          img(src="@/assets/curso/tema10/3.svg" data-aos="fade-right" style="max-width:120px;display:inline;")
       .col-lg-9(style="place-self:center")
         ul.fa-ul
           li.mb-3.d-block(data-aos="fade-up")
@@ -77,37 +77,37 @@
     SlyderF.mt-5(columnas="col-lg-6 col-xl-4")
       .tarjeta.color-primario.cont_slydef1.p-4
         figure.text-center
-          img(src='@/assets/curso/tema5/14.svg' style="max-width:120px;display:inline;")
+          img(src='@/assets/curso/tema5/14.svg' style="max-width:100px;display:inline;")
         .text-white.text-center
           p.mt-4(style="color:#12263F !important;") Buscar información de actualizaciones y descargarlas de sitios oficiales.
       .tarjeta.color-primario.cont_slydef1.p-4
         figure.text-center
-          img(src='@/assets/curso/tema5/15.svg' style="max-width:120px;display:inline;")
+          img(src='@/assets/curso/tema5/15.svg' style="max-width:100px;display:inline;")
         .text-white.text-center
           p.mt-4(style="color:#12263F !important;") Validar las actualizaciones, tanto de manera previa como posterior, para verificación de funcionalidad de los sistemas.
       .tarjeta.color-primario.cont_slydef1.p-4
         figure.text-center
-          img(src='@/assets/curso/tema5/16.svg' style="max-width:120px;display:inline;")
+          img(src='@/assets/curso/tema5/16.svg' style="max-width:100px;display:inline;")
         .text-white.text-center
           p.mt-4(style="color:#12263F !important;") Preferiblemente, realizar la instalación en ambiente de pruebas, y posteriormente, en producción.
       .tarjeta.color-primario.cont_slydef1.p-4
         figure.text-center
-          img(src='@/assets/curso/tema5/17.svg' style="max-width:120px;display:inline;")
+          img(src='@/assets/curso/tema5/17.svg' style="max-width:100px;display:inline;")
         .text-white.text-center
           p.mt-4(style="color:#12263F !important;") Siempre mantener las actualizaciones de los sistemas al día, a excepción de las documentadas por requerimientos técnicos o compatibilidades.
       .tarjeta.color-primario.cont_slydef1.p-4
         figure.text-center
-          img(src='@/assets/curso/tema5/18.svg' style="max-width:120px;display:inline;")
+          img(src='@/assets/curso/tema5/18.svg' style="max-width:100px;display:inline;")
         .text-white.text-center
           p.mt-4(style="color:#12263F !important;") Mantener los sistemas operativos, sistemas de información y aplicaciones de uso diario actualizados.
       .tarjeta.color-primario.cont_slydef1.p-4
         figure.text-center
-          img(src='@/assets/curso/tema5/19.svg' style="max-width:120px;display:inline;")
+          img(src='@/assets/curso/tema5/19.svg' style="max-width:100px;display:inline;")
         .text-white.text-center
           p.mt-4(style="color:#12263F !important;") Implemente soluciones para la automatización de actualizaciones generales, como, por ejemplo, WSUS para sistemas Microsoft.
       .tarjeta.color-primario.cont_slydef1.p-4
         figure.text-center
-          img(src='@/assets/curso/tema5/20.svg' style="max-width:120px;display:inline;")
+          img(src='@/assets/curso/tema5/20.svg' style="max-width:100px;display:inline;")
         .text-white.text-center
           p.mt-4(style="color:#12263F !important;") Establezca horarios de actualizaciones automáticas que no afecten el desarrollo de las actividades laborales.
 

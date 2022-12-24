@@ -171,7 +171,7 @@
         figure
           img(src="@/assets/curso/tema5/23.svg" data-aos="fade-right")
       .col(style="place-self:center;")
-        h4.text-white.mb-0(data-aos="fade-up") Características
+        h3.text-white.mb-0(data-aos="fade-up") Características
 
     p(data-aos="fade-up") Dentro de las características requeridas por una solución para la detección y respuesta de #[em endpoints], es importante tener presente que debe abordar los niveles de seguridad para este tipo de dispositivos, como son:
 
@@ -179,40 +179,40 @@
       .col-xl.col-lg-6.mb-xl-0.mb-4
         .h-100.cont_tarjeta_5_4
           .row.m-0
-            .col-auto.p-3.d-flex.align-items-center(style="background-color:#583AE2;border-top-left-radius:10px;border-bottom-left-radius:10px;")
+            .col-auto.p-3.d-flex.align-items-center(style="background-color:#583AE2;border-top-left-radius:10px;border-bottom-left-radius:0px;")
               figure
-                img(src="@/assets/curso/tema5/24.svg" data-aos="fade-right" style="width:60px;filter: brightness(4);")
-            .col.p-3.d-flex.align-items-center(style="background-color:#D5CEF8;border-top-right-radius:10px;border-bottom-right-radius:10px;")
+                img(src="@/assets/curso/tema5/24.svg" data-aos="fade-right" style="width:60px;")
+            .col.p-3.d-flex.align-items-center(style="background-color:#D5CEF8;border-top-right-radius:10px;border-bottom-right-radius:0px;")
               p.mb-0(data-aos="fade-up") #[strong Análisis de riesgos y endurecimiento]
           .p-4
             p(data-aos="fade-up") Capacidad de realizar un inventario y su correspondiente análisis de riesgos, generar un esquema de actualizaciones, sugiriendo aplicación de cifrado a la información, estableciendo controles de seguridad tanto a las aplicaciones como al dispositivo en general.
       .col-xl.col-lg-6.mb-xl-0.mb-4
         .h-100.cont_tarjeta_5_4
           .row.m-0
-            .col-auto.p-3.d-flex.align-items-center(style="background-color:#583AE2;border-top-left-radius:10px;border-bottom-left-radius:10px;")
+            .col-auto.p-3.d-flex.align-items-center(style="background-color:#583AE2;border-top-left-radius:10px;border-bottom-left-radius:0px;")
               figure
-                img(src="@/assets/curso/tema5/25.svg" data-aos="fade-right" style="width:60px;filter: brightness(4);")
-            .col.p-3.d-flex.align-items-center(style="background-color:#D5CEF8;border-top-right-radius:10px;border-bottom-right-radius:10px;")
+                img(src="@/assets/curso/tema5/25.svg" data-aos="fade-right" style="width:60px;")
+            .col.p-3.d-flex.align-items-center(style="background-color:#D5CEF8;border-top-right-radius:10px;border-bottom-right-radius:0px;")
               p.mb-0(data-aos="fade-up") #[strong Prevención]
           .p-4
             p(data-aos="fade-up") Proveer de soluciones de seguridad activa que protejan contra cualquier amenaza que pueda afectar los activos de información administrados, a partir del monitoreo permanente y aprendizaje de los comportamientos identificados, facilitando la defensa ante cualquier comportamiento anómalo presentado desde el #[em endpoint].
       .col-xl.col-lg-6.mb-xl-0.mb-4
         .h-100.cont_tarjeta_5_4
           .row.m-0
-            .col-auto.p-3.d-flex.align-items-center(style="background-color:#583AE2;border-top-left-radius:10px;border-bottom-left-radius:10px;")
+            .col-auto.p-3.d-flex.align-items-center(style="background-color:#583AE2;border-top-left-radius:10px;border-bottom-left-radius:0px;")
               figure
-                img(src="@/assets/curso/tema5/26.svg" data-aos="fade-right" style="width:60px;filter: brightness(4);")
-            .col.p-3.d-flex.align-items-center(style="background-color:#D5CEF8;border-top-right-radius:10px;border-bottom-right-radius:10px;")
+                img(src="@/assets/curso/tema5/26.svg" data-aos="fade-right" style="width:60px;")
+            .col.p-3.d-flex.align-items-center(style="background-color:#D5CEF8;border-top-right-radius:10px;border-bottom-right-radius:0px;")
               p.mb-0(data-aos="fade-up") #[strong Detección y respuesta]
           .p-4
             p(data-aos="fade-up") Brindar un monitoreo permanente que permita identificar de manera oportuna amenazas que puedan afectar el dispositivo, aislamiento del mismo, y realizar las acciones necesarias para la limpieza y registro de las acciones adelantadas.
       .col-xl.col-lg-6.mb-xl-0.mb-4
         .h-100.cont_tarjeta_5_4
           .row.m-0
-            .col-auto.p-3.d-flex.align-items-center(style="background-color:#583AE2;border-top-left-radius:10px;border-bottom-left-radius:10px;")
+            .col-auto.p-3.d-flex.align-items-center(style="background-color:#583AE2;border-top-left-radius:10px;border-bottom-left-radius:0px;")
               figure
-                img(src="@/assets/curso/tema5/27.svg" data-aos="fade-right" style="width:60px;filter: brightness(4);")
-            .col.p-3.d-flex.align-items-center(style="background-color:#D5CEF8;border-top-right-radius:10px;border-bottom-right-radius:10px;")
+                img(src="@/assets/curso/tema5/27.svg" data-aos="fade-right" style="width:60px;")
+            .col.p-3.d-flex.align-items-center(style="background-color:#D5CEF8;border-top-right-radius:10px;border-bottom-right-radius:0px;")
               p.mb-0(data-aos="fade-up") #[strong Informes e integración]
           .p-4
             p(data-aos="fade-up") Debe brindar las capacidades de integrarse con soluciones y sistemas de monitoreo para una visualización general de los endpoints de la organización.
@@ -313,4 +313,8 @@ export default {
   background-repeat: no-repeat
   background-size: cover
   background-position: center
+@media screen and (max-width: 720px)
+  .cont_5_2:before
+    width: 100%
+    border-radius: 0px
 </style>

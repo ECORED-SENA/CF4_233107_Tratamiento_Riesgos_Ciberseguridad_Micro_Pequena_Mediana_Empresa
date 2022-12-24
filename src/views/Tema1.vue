@@ -69,15 +69,15 @@
       .col-lg.mb-4.mb-lg-0
         .p-4.h-100.cont_tarjeta2(style="background-color:#583AE2;border-radius:15px;")
           img.img_fondo(src="@/assets/curso/tema1/12.png")
-          figure.col-6.col-md-6.m-auto.col-lg-5
-            img(src="@/assets/curso/tema1/10.svg" data-aos="zoom-in-up")
+          figure.d-flex.justify-content-center
+            img(src="@/assets/curso/tema1/10.svg" data-aos="zoom-in-up" style="max-width:140px;")
           h4.text-white.mt-4.text-center(data-aos="fade-up") Básicos
           p.mt-4.text-white(data-aos="fade-up") Su implementación no requiere de mayor esfuerzo ni ajustes en los sistemas de información y pueden abordarse con capacitaciones y controles básicos.
       .col-lg.mb-4.mb-lg-0
         .p-4.h-100.cont_tarjeta3(style="background-color:#45BBCC;border-radius:15px;")
           img.img_fondo(src="@/assets/curso/tema1/9.png")
-          figure.col-6.col-md-6.m-auto.col-lg-5
-            img(src="@/assets/curso/tema1/11.svg" data-aos="zoom-in-up")
+          figure.d-flex.justify-content-center
+            img(src="@/assets/curso/tema1/11.svg" data-aos="zoom-in-up" style="max-width:140px;")
           h4.text-white.mt-4.text-center(data-aos="fade-up") Avanzados
           p.mt-4.text-white(data-aos="fade-up") Estos controles requieren de herramientas avanzadas y establecimiento de políticas y controles, como, por ejemplo, la implementación de servicios de directorio activo y la implementación de políticas de grupo.
 

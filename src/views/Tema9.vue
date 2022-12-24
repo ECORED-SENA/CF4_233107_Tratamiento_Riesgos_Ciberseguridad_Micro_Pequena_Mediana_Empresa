@@ -164,6 +164,7 @@ export default {
 .cont_slyderab1
   background: url(../assets/curso/tema2/6.png)
   background-repeat: no-repeat
+  background-size: cover
 .slyder-a__bullets__item
   background-color: #A097CC
 .slyder-a__bullets__item--active
@@ -183,4 +184,10 @@ export default {
   left: -1%
   background: url(../assets/curso/tema9/8.png)
   background-size: 100% 100%
+@media screen and (max-width: 1300px)
+  .cont_9_1:before
+    width: 100%
+    height: 100%
+    left: 0
+    top: 0
 </style>

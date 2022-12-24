@@ -56,45 +56,45 @@
     .tarjeta.tarjeta--azul.p-5.mt-5.cont_slyderab1
       SlyderA(tipo="b")
         .row
-          .col-lg-7.mb-4.mb-lg-0
+          .col-lg-6.mb-4.mb-lg-0
             h4 Aplicaciones maliciosas
             p Mediante las cuales se puede instalar apps maliciosas que pueden presentar algún tipo de filtración de datos o daño, tanto en los dispositivos como en la información.
-          .col-lg-5
+          .col-lg-6
             figure
               img(src='@/assets/curso/tema7/8.png')
         .row
-          .col-lg-7.mb-4.mb-lg-0
+          .col-lg-6.mb-4.mb-lg-0
             h4 Vulnerabilidades en los dispositivos
             p Algunas marcas y/o modelos no cuentan con los componentes necesarios para un sistema seguro, lo que se considera una debilidad, y esta puede ser aprovechada por terceros para robar información.
-          .col-lg-5
+          .col-lg-6
             figure
               img(src='@/assets/curso/tema7/9.png')
         .row
-          .col-lg-7.mb-4.mb-lg-0
+          .col-lg-6.mb-4.mb-lg-0
             h4 #[em Phishing]
             p Esta es una de las vulnerabilidades más comunes, con la cual buscan captar usuarios incautos para robar información, cuentas o acceder a información de sistemas bancarios o de redes sociales, para luego pedir algún rescate.
-          .col-lg-5
+          .col-lg-6
             figure
               img(src='@/assets/curso/tema7/10.png')
         .row
-          .col-lg-7.mb-4.mb-lg-0
+          .col-lg-6.mb-4.mb-lg-0
             h4 Ataques #[em Man-in-the-Middle]
             p Teniendo presente la cantidad de información que circula en las redes hoy, este tipo de ataque permite intervenir el tráfico para capturar la información que por ella transita.
-          .col-lg-5
+          .col-lg-6
             figure
               img(src='@/assets/curso/tema7/11.png')
         .row
-          .col-lg-7.mb-4.mb-lg-0
+          .col-lg-6.mb-4.mb-lg-0
             h4 Ataques basados en la red
             p Problemas de #[em malware] en dispositivos, que puede tomar el control y realizar acciones no requeridas, por ejemplo: envío masivo de mensajes a los contactos o publicación autónoma en las redes sociales.
-          .col-lg-5
+          .col-lg-6
             figure
               img(src='@/assets/curso/tema7/12.png')
         .row
-          .col-lg-7.mb-4.mb-lg-0
+          .col-lg-6.mb-4.mb-lg-0
             h4 Por pérdida o robo
             p Información, contenido y si esta se encontraba cifrada o no.
-          .col-lg-5
+          .col-lg-6
             figure
               img(src='@/assets/curso/tema7/13.png')
 
@@ -141,7 +141,7 @@
         figure
           img(src="@/assets/curso/tema5/23.svg" data-aos="fade-right")
       .col(style="place-self:center;")
-        h4.text-white.mb-0(data-aos="fade-up") Aspectos importantes de la guía
+        h3.text-white.mb-0(data-aos="fade-up") Aspectos importantes de la guía
 
     .row.cont_7_2(style="position:relative;")
       .col-lg-10.col-md-8.mb-4.mb-md-0
@@ -165,7 +165,7 @@
         figure
           img(src="@/assets/curso/tema5/23.svg" data-aos="fade-right")
       .col(style="place-self:center;")
-        h4.text-white.mb-0(data-aos="fade-up") Seguridad en el teletrabajo
+        h3.text-white.mb-0(data-aos="fade-up") Seguridad en el teletrabajo
 
     .row
       .col-lg-8.mb-4.mb-lg-0(style="place-self:center")
@@ -176,7 +176,7 @@
 
     .row.mt-5.cont_7_3.p-4.pt-5.pb-5
       .col-lg-4.mb-4.mb-lg-0.col-xl-3(style="place-self:center")
-        figure
+        figure.d-flex.justify-content-center.col-md-12.col-8.m-auto
           img(src="@/assets/curso/tema7/20.svg" data-aos="fade-right")
       .col-lg-8.col-xl-9(style="place-self:center")
         ul.fa-ul
@@ -245,7 +245,7 @@ export default {
   background-size: 100% 100%
   background-color: white !important
 .cont_slyderab1
-  background: url(../assets/curso/tema2/6.png)
+  background: url(../assets/curso/tema7/21.png)
   background-repeat: no-repeat
   background-size: cover
 .slyder-a__bullets__item
