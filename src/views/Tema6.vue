@@ -79,7 +79,7 @@
                 p.mb-0 #[strong Llave pública:] la cual se puede compartir.
                 p.mb-0 #[strong Llave privada:] está únicamente debe ser conocida por el destinatario o interesado.
         .col-lg-4
-          figure.col-md-12.col-8.m-auto
+          figure.col-md-7.col-7.m-auto
             img(src="@/assets/curso/tema6/5.svg" data-aos="fade-left")
 
     p.mt-5(data-aos="fade-up") #[strong En la siguiente figura, puede observar el proceso para cifrar mensajes a partir de estos dos tipos de cifrado.]
@@ -169,7 +169,7 @@
         figure
           img(src="@/assets/curso/tema6/17.png" data-aos="fade-left")
     
-    .row.mb-5.m-0.mt-5(style="background-color:#40327B;border-top-right-radius:150px;border-bottom-right-radius:150px;max-width:200px;")
+    .row.mb-5.m-0.mt-5(style="background-color:#40327B;border-top-right-radius:150px;border-bottom-right-radius:150px;max-width:fit-content;")
       .col-auto.p-0(style="place-self:center;")
         figure
           img(src="@/assets/curso/tema5/23.svg" data-aos="fade-right")
@@ -184,7 +184,7 @@
         img.d-none.d-lg-block(src="@/assets/curso/tema6/18.svg" data-aos="zoom-in-up")
         img.d-block.d-lg-none(src="@/assets/curso/tema6/19.svg" data-aos="zoom-in-up")
 
-    .row.mb-5.m-0.mt-5(style="background-color:#40327B;border-top-right-radius:150px;border-bottom-right-radius:150px;max-width:200px;")
+    .row.mb-5.m-0.mt-5(style="background-color:#40327B;border-top-right-radius:150px;border-bottom-right-radius:150px;max-width:fit-content;")
       .col-auto.p-0(style="place-self:center;")
         figure
           img(src="@/assets/curso/tema5/23.svg" data-aos="fade-right")

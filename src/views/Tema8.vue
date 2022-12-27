@@ -29,7 +29,7 @@
           h4.mt-4.text-center(data-aos="fade-up") Servicio esencial
           p.mt-4(data-aos="fade-up") El mismo LISA Institute lo define como #[strong “el servicio necesario para el mantenimiento de las funciones sociales básicas, la salud, la seguridad, el bienestar social y económico de los ciudadanos, o el eficaz funcionamiento de las Instituciones del Estado y las Administraciones Públicas”] (LISA Institute, 2020).
 
-    .row.mb-5.m-0.mt-5(style="background-color:#40327B;border-top-right-radius:150px;border-bottom-right-radius:150px;max-width:150px;")
+    .row.mb-5.m-0.mt-5(style="background-color:#40327B;border-top-right-radius:150px;border-bottom-right-radius:150px;max-width:fit-content;")
       .col-auto.p-0(style="place-self:center;")
         figure
           img(src="@/assets/curso/tema5/23.svg" data-aos="fade-right")
@@ -158,7 +158,7 @@
               a.boton.color-acento-botones(href="https://www.nist.gov/cyberframework" target="_blank" data-aos="fade-left")
                 span Ir a enlace
 
-    .row.mb-5.m-0.mt-5(style="background-color:#40327B;border-top-right-radius:150px;border-bottom-right-radius:150px;max-width:300px;")
+    .row.mb-5.m-0.mt-5(style="background-color:#40327B;border-top-right-radius:150px;border-bottom-right-radius:150px;max-width:fit-content;")
       .col-auto.p-0(style="place-self:center;")
         figure
           img(src="@/assets/curso/tema5/23.svg" data-aos="fade-right")
@@ -290,7 +290,7 @@
             td.p-4 Existe un enfoque a nivel de toda la organización para gestionar el riesgo de ciberseguridad que utiliza políticas, proceso y procedimientos.
             td.p-4 La organización gestiona el riesgo y comparte activamente la información con los socios para garantizar que se distribuye información precisa para mejorar la ciberseguridad antes de que se produzca un evento.
 
-    .row.mb-5.m-0.mt-5(style="background-color:#40327B;border-top-right-radius:150px;border-bottom-right-radius:150px;max-width:200px;")
+    .row.mb-5.m-0.mt-5(style="background-color:#40327B;border-top-right-radius:150px;border-bottom-right-radius:150px;max-width:fit-content;")
       .col-auto.p-0(style="place-self:center;")
         figure
           img(src="@/assets/curso/tema5/23.svg" data-aos="fade-right")

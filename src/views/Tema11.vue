@@ -47,7 +47,7 @@
 
     .col-xl-10.m-auto.mt-5
       h3(data-aos="fade-up") Conceptos de seguridad
-      AcordionA.mt-4(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")
+      AcordionA.mt-4(tipo="b" clase-tarjeta="tarjeta tarjeta--gris")
         .row(titulo="Técnicas más comunes utilizadas por los ciberdelincuentes")
           .col-md-4.mb-4.mb-md-0
             figure

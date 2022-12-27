@@ -86,7 +86,7 @@
           img(src="@/assets/curso/tema3/10.svg" data-aos="fade-right" style="max-width:90px")
       .col-xl-6.col-lg-5.mb-lg-0.mb-4(style="place-self:center")
         p.mb-0(data-aos="fade-up") El portal #[em Safety Detectives] comparte su post titulado “Las 7 mejores aplicaciones y protecciones #[em antimalware] (2022): Mejores herramientas”, entre las cuales sobresalen Norton 360, Bitdefender McAfee, TotalAV, Avira, así como la solución de MalwareBytes como herramienta autónoma sobresaliente para la gestión de #[em malware] para sistemas operativos Windows.
-      .col-xl-4.col-lg-4
+      .col-xl-4.col-lg-4.col-md-9.col-7.m-auto
         figure
           img(src="@/assets/curso/tema5/13.svg" data-aos="fade-left" style="position:relative;bottom:-16px;")
 
@@ -166,7 +166,7 @@
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/XuDaYwxGMU0" title="Detección y Respuesta para Endpoints (EDR)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
-    .mt-5.row.mb-5(style="background-color:#40327B;border-top-right-radius:150px;border-bottom-right-radius:150px;max-width:300px;")
+    .mt-5.row.mb-5(style="background-color:#40327B;border-top-right-radius:150px;border-bottom-right-radius:150px;max-width:fit-content;")
       .col-auto.p-0(style="place-self:center;")
         figure
           img(src="@/assets/curso/tema5/23.svg" data-aos="fade-right")
@@ -313,7 +313,7 @@ export default {
   background-repeat: no-repeat
   background-size: cover
   background-position: center
-@media screen and (max-width: 720px)
+@media screen and (max-width: 1000px)
   .cont_5_2:before
     width: 100%
     border-radius: 0px

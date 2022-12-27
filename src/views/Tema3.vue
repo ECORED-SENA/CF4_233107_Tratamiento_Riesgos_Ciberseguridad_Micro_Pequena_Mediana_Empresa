@@ -184,7 +184,7 @@
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img.d-flex.flex-wrap(:style="{'background-image': `url(${require('@/assets/curso/tema3/15.png')})`}")
-              figure.d-flex.justify-content-center
+              figure.d-flex.justify-content-center.align-items-end
                 img(src="@/assets/curso/tema3/16.svg" style="max-width:200px;")
               .m-auto.text-center(style="width:fit-content;")
                 .pt-2.pb-2.bg-white.ps-4.pe-4(style="border-radius:50px;")
@@ -214,7 +214,7 @@
         .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img.d-flex.flex-wrap(:style="{'background-image': `url(${require('@/assets/curso/tema3/15.png')})`}")
-              figure.d-flex.justify-content-center
+              figure.d-flex.justify-content-center.align-items-end
                 img(src="@/assets/curso/tema3/17.svg" style="max-width:200px;")
               .m-auto.text-center(style="width:fit-content;")
                 .pt-2.pb-2.bg-white.ps-4.pe-4(style="border-radius:50px;")
@@ -228,7 +228,7 @@
                 li(data-aos="fade-up")
                   i.fas.fa-check-circle(style="color:#40327B;")
                   | Permite descartar paquetes sospechosos.
-                li(data-aos="fade-up")
+                li(data-aos="fade-up").align-items-end
                   i.fas.fa-check-circle(style="color:#40327B;")
                   | Permite bloquear direcciones sospechosas.
 

@@ -136,7 +136,7 @@
               a.boton.color-acento-botones(href="https://csrc.nist.gov/publications/detail/sp/800-114/rev-1/final" target="_blank" data-aos="fade-left")
                 span Ir a enlace
 
-    .row.mb-5.m-0.mt-5(style="background-color:#40327B;border-top-right-radius:150px;border-bottom-right-radius:150px;max-width:350px;")
+    .row.mb-5.m-0.mt-5(style="background-color:#40327B;border-top-right-radius:150px;border-bottom-right-radius:150px;max-width:fit-content;")
       .col-auto.p-0(style="place-self:center;")
         figure
           img(src="@/assets/curso/tema5/23.svg" data-aos="fade-right")
@@ -160,7 +160,7 @@
 
     p.mt-5(data-aos="fade-up") #[strong Si la organización tiene implementada la modalidad de teletrabajo, se recomienda tener presente esta guía.]
 
-    .row.mb-5.m-0.mt-5(style="background-color:#40327B;border-top-right-radius:150px;border-bottom-right-radius:150px;max-width:350px;")
+    .row.mb-5.m-0.mt-5(style="background-color:#40327B;border-top-right-radius:150px;border-bottom-right-radius:150px;max-width:fit-content;")
       .col-auto.p-0(style="place-self:center;")
         figure
           img(src="@/assets/curso/tema5/23.svg" data-aos="fade-right")
@@ -176,7 +176,7 @@
 
     .row.mt-5.cont_7_3.p-4.pt-5.pb-5
       .col-lg-4.mb-4.mb-lg-0.col-xl-3(style="place-self:center")
-        figure.d-flex.justify-content-center.col-md-12.col-8.m-auto
+        figure.d-flex.justify-content-center.col-md-6.col-6.m-auto
           img(src="@/assets/curso/tema7/20.svg" data-aos="fade-right")
       .col-lg-8.col-xl-9(style="place-self:center")
         ul.fa-ul
